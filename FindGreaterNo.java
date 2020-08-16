@@ -1,5 +1,5 @@
 public class FindGreaterNo {
-
+// This function print the is greater no.
 public void greterNo (final int a, final int b, final int c) {
     if (a > b && a > c) {
         System.out.println(a + ":greater");
@@ -12,6 +12,7 @@ public void greterNo (final int a, final int b, final int c) {
     }
 }
 
+ // This function print the order of the given number in accending order.
 public void greaterNoOrder(final int a, final int b, final int c)
 {
     if(a>b && a>c)
@@ -50,10 +51,10 @@ public void greaterNoOrder(final int a, final int b, final int c)
         System.out.println(a+"="+b+"="+c);
     }
 }
-
+// Main method
 public static void main(String...args)
 {
-
+ // make class object and call function.
 }
 
 
